@@ -32,7 +32,7 @@ elif prompt == 3 :
     input_data = input('>')
     
 else:
-    print("\nSorry, there are only two available options. Please try again.")
+    print("\nSorry, there are only three available options. Please try again.")
     
 # using genfromtxt to open file and generate arrays with corresponding header name
 data2plot = np.genfromtxt(input_data, skip_header=1) # skip header so the first line is not read
